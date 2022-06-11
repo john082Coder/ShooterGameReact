@@ -69,7 +69,7 @@ const Connect2Phantom: FC = () => {
     }
 
     return (
-        <div>
+        <div style={{width:'100%'}}>
             { walletAvail ?
                 <>
                 
@@ -82,8 +82,9 @@ const Connect2Phantom: FC = () => {
                 <p>Opps!!! Phantom is not available. Go get it <a href="https://phantom.app/">https://phantom.app/</a>.</p>
                 </>
             }
-            <iframe src="https://main--whimsical-daffodil-c86fc9.netlify.app/" width={'100%'} height={600} style={{display:connected?'':'none'}}></iframe>
+            <iframe src="https://main--whimsical-daffodil-c86fc9.netlify.app/" width={'90%'} height={600} style={{display:connected?'':'none'}}></iframe>
         </div>
+        
     );
 }
 
