@@ -1,0 +1,12 @@
+.connectButton {
+    color: #FBFBFB;
+    height: 44px;
+    font-size: 16px;
+    background: #3A3A85;
+    font-weight: 900;
+    line-height: 24px;
+    margin-right: 15px;
+    border-radius: 10px;
+    padding-inline: 12px;
+    text-transform: none;
+}
